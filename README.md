@@ -19,12 +19,12 @@ Membuat aplikasi terintegrasi yang memiliki fitur create, read, update, dan dele
 - Sub option 1: delete data
 - Sub option 2: kembali ke main menu
 
-5. Option 5 (holding cost):
+5. Option 5 (holding cost): -> Fitur tambahan
 - Sub option 1: menghitung biaya simpan dari tanggal masuk sampai tanggal keluar
 - Sub option 2: menghitung biaya simpan dari tanggal masuk sampai tanggal hari ini
 - Sub option 3: kembali ke main menu
 
-6. Option 6 (in and out):
+6. Option 6 (in and out): -> Fitur tambahan
 - Sub option 1: in (barang masuk)
 - Sub option 2: out (barang keluar)
 - Sub option 3: kembali ke main menu
