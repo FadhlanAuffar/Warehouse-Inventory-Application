@@ -1,6 +1,6 @@
-# Capstone-Project-M1
+# Inventory Application
 
-Membuat aplikasi persedian stok gudang terintegrasi yang memiliki 4 fitur utama  yaitu create, read, update, dan delete. 
+Aplikasi persedian stok gudang terintegrasi yang memiliki 4 fitur utama  yaitu create, read, update, dan delete. 
 1. Option 1 (Read menu):
 - Sub option 1: menampilkan semua data 
 - Sub option 2: mengkases data spesifik
