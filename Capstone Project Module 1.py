@@ -72,7 +72,8 @@ def cariDataExist(input,k) :
 
 
 # Function Reading
-def optionReading() :
+
+def optionReading() : # Menampilkan menu reading
     hasilReading = input('''
     Reading Sub Menu:
     1. Menampilkan keseluruhan data
@@ -81,12 +82,12 @@ def optionReading() :
     Silahkan masukan angka yang ingin dijalankan : ''')
     return hasilReading
 
-def seluruhData(list) :
+def seluruhData(list) : # Untuk menampilkan data 
     Kolom = list[0].keys()
     Baris =  [x.values() for x in list]
     print('\n', tabulate(Baris, Kolom))
 
-def cariDataReading(input, k) :
+def cariDataReading(input, k) : 
     p = 0
 
     if k == 'Kode' :
@@ -106,7 +107,7 @@ def cariDataReading(input, k) :
                 print('\n DATA DOES NOT EXIST!')
                 break   
             
-def dataTertentu() :
+def dataTertentu() :  # Untuk mencari data tertentu
 
     while True :
         hasilKolom = pilihKolom('mencari')
@@ -127,7 +128,7 @@ def dataTertentu() :
             
     
 # Function Create   
-def optionCreate() :
+def optionCreate() : # Untuk menampilkan menu create
     hasilCreate = input('''
     Creating Sub Menu:
     1. Menambahkan data
@@ -135,7 +136,7 @@ def optionCreate() :
     Silahkan masukan angka yang ingin dijalankan : ''')
     return hasilCreate
 
-def cariDuplikatCreate(input, k) :
+def cariDuplikatCreate(input, k) : # Untuk filter data duplikat
 
     if k == 'Kode' :
         cari = 'Kode'
@@ -151,7 +152,7 @@ def cariDuplikatCreate(input, k) :
             dataDuplikat = False
     return dataDuplikat
 
-def inputTanggal () :
+def inputTanggal () : # Untuk input tanggal baru
     while True :
 
         tglMasuk = input('Silahkan input tanggal masuk barang baru (DD/MM/YYYY): ')
@@ -194,12 +195,13 @@ def inputTanggal () :
     return tglMasuk, tglKeluar
 
 
-def tambahData() :
+def tambahData() : # untuk menambahkan data
     
     while True :
         hasilKolom2 = pilihKolom('menambah')
         
         if hasilKolom2 == '1'  :
+            
             kolomKodeTambah = int(input('Silahkan input kode barang baru (angka): '))
 
             konfirmasiDuplikat = cariDuplikatCreate(kolomKodeTambah, 'Kode')
@@ -279,7 +281,7 @@ def tambahData() :
 
 # Function Update
 
-def optionUpdate() :
+def optionUpdate() : # Untuk menampilkan menu update
     hasilUpdate = input('''
     Update Sub Menu:
     1. Memperbaharui data
@@ -287,7 +289,7 @@ def optionUpdate() :
     Silahkan masukan angka yang ingin dijalankan: ''')
     return hasilUpdate
 
-def konfirmasiUpdateData(konfirmasi, baris) :
+def konfirmasiUpdateData(konfirmasi, baris) : # Untuk konfirmasi update data yang diperbaharui
     while konfirmasi == True :
         print('\n{}'.format(dataGudang[baris]))
         lanjutUpdate = input('\nApakah anda ingin melanjutkan memperbaharui data? (yes/no): ').lower()
@@ -330,7 +332,7 @@ def konfirmasiUpdateData(konfirmasi, baris) :
     
     return True
 
-def updateData() :
+def updateData() : # Untuk memperbaharui data
 
     while True :
         hasilKolom3 = pilihKolom('merubah')
@@ -362,7 +364,7 @@ def updateData() :
             continue  
 
 # Function Delete
-def optionDelete() :
+def optionDelete() : # Untuk menampikan menu update
     hasilDelete = input('''
     Delete Sub Menu:
     1. Menghapus data
@@ -370,7 +372,7 @@ def optionDelete() :
     Silahkan masukan angka yang ingin dijalankan: ''')
     return hasilDelete
 
-def menghapusData(konfirmasi, baris) :
+def menghapusData(konfirmasi, baris) : # Untuk menghapus data 
 
     while konfirmasi == True :
         print('\n{}'.format(dataGudang[baris]))
@@ -385,7 +387,7 @@ def menghapusData(konfirmasi, baris) :
     
     return True
 
-def deleteData() :
+def deleteData() : # Untuk memilih data yang akan dihapus
     
     while True :
         hasilKolom4 = pilihKolom('menghapus')
@@ -419,7 +421,7 @@ def deleteData() :
 
 #Function Holding Cost
 
-def optionHoldingCost() :
+def optionHoldingCost() : # Untuk menampilkan menu holding cost
     hasilHolding = input('''
     Holding Cost Sub Menu:
     1. Menghitung biaya simpan dari tanggal masuk sampai tanggal keluar
@@ -429,7 +431,7 @@ def optionHoldingCost() :
     return hasilHolding
 
 
-def holdingCost(angka) :
+def holdingCost(angka) : # Untuk menghitung holding cost
 
     while True :
         seluruhData(dataGudang)
@@ -456,6 +458,7 @@ def holdingCost(angka) :
                 listTanggalKeluarInt = [int(i) for i in listTanggalKeluar]
                 tanggalOut = listTanggalKeluarInt[0]
                 bulanOut = listTanggalKeluarInt[1]
+                
                 tahunOut = listTanggalKeluarInt[2]
 
                 formatOut = datetime.date(tahunOut, bulanOut, tanggalOut)
@@ -476,7 +479,7 @@ def holdingCost(angka) :
    
 #Function In and Out
 
-def optionInOut() :
+def optionInOut() : # Untuk menampilkan menu in and out
     hasilInOut = input('''
     In and Out Sub Menu:
     1. In (Barang masuk)
@@ -485,20 +488,21 @@ def optionInOut() :
     Silahkan masukan angka yang ingin dijalankan: ''')
     return hasilInOut
 
-def operasiInOut(x) :
+def operasiInOut(x) : # Untuk mengoperasikan in and out
 
     while True :
         seluruhData(dataGudang)
-
+        
         nomor = int(input('\nInput kode barang: '))
 
         hasilCari = cariDataExist(nomor, 'Kode') 
         kondisi = hasilCari[0] 
         index = hasilCari[1] 
 
-        angka = int(input('Berapa kuantitas {}: '.format(dataGudang[index]['Nama'])))
-
         while kondisi == True :
+            
+            angka = int(input('Berapa kuantitas {}: '.format(dataGudang[index]['Nama'])))
+
             if x == '1':
                 dataGudang[index]['Stock'] += angka
                 print('\nDATA SUCCESSFULLY UPDATE!')
@@ -518,7 +522,7 @@ def operasiInOut(x) :
 
 #Function Menu Utama
 
-def menuUtama () :
+def menuUtama () : # Untuk menampilkan menu utama program
 
     mainMenu = input('''
     ----------------Welcome-------------------
