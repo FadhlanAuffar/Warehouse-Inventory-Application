@@ -1,34 +1,20 @@
-# Inventory Application
+![sa](https://github.com/FadhlanAuffar/Capstone-Project-M1/assets/134937815/dbd90eb4-ef71-4a7f-98a7-9d60e98a93ee)
+# Warehouse Inventory Application
 
-Aplikasi persedian stok gudang terintegrasi yang memiliki 4 fitur utama  yaitu create, read, update, dan delete. 
-1. Option 1 (Read menu):
-- Sub option 1: menampilkan semua data 
-- Sub option 2: mengkases data spesifik
-- Sub option 3: kembali ke main menu
+This application will not only handle the essential CRUD (Create, Read, Update, Delete) operations but will also incorporate advanced features to provide a comprehensive inventory management solution. By implementing functionalities for calculating holding costs, the app will help you gain a deeper understanding of the financial implications of your inventory decisions. Additionally, the app will facilitate efficient management of the flow of goods into and out of your inventory.
 
-2. Option 2 (Create menu):
-- Sub option 1: menambahkan data 
-- Sub option 2: kembali ke main menu
-
-3. Option 3 (update menu):
-- Sub option 1: meng-update data
-- Sub option 2: kembali ke main menu
-
-4. Option 4 (delete menu):
-- Sub option 1: delete data
-- Sub option 2: kembali ke main menu
-
-5. Option 5 (holding cost): -> Fitur tambahan
-- Sub option 1: menghitung biaya simpan dari tanggal masuk sampai tanggal keluar
-- Sub option 2: menghitung biaya simpan dari tanggal masuk sampai tanggal hari ini
-- Sub option 3: kembali ke main menu
-
-6. Option 6 (in and out): -> Fitur tambahan
-- Sub option 1: in (barang masuk)
-- Sub option 2: out (barang keluar)
-- Sub option 3: kembali ke main menu
-
-7. Option 7 (END)
-
-
-
+Key Feature:
+1. Create
+   This feature allow users to input new products into the inventory. This forms will capture essential details such as product name, product code, stock, date in and date out
+2. Read
+   This feature allow users to see existing product in their inventory
+3. Update
+   This feature allow users for updating the details of existing products. This will include changing quantities, updating product name or code, and modifying product date.
+4. Delete
+   I’m already implement confirmation prompts to prevent accidental deletion of inventory items. Users will be required to confirm their intent to delete an item.
+5. Holding Cost
+   This feature allow users for calculating holding costs. This will consider based on storage costs,
+6. In and Out
+   This feature will automatically calculate your item stock based on arrivals and departures of goods
+7. Exit
+   This feature will automatically close the app
