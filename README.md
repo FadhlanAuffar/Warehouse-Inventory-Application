@@ -1,4 +1,4 @@
-![sa](https://github.com/FadhlanAuffar/Capstone-Project-M1/assets/134937815/dbd90eb4-ef71-4a7f-98a7-9d60e98a93ee)
+![DALL·E 2024-08-26 18 54 53 - A highly detailed 4K realistic image of a laptop on a wooden table displaying a warehouse inventory app, placed inside an old classic warehouse at nig](https://github.com/user-attachments/assets/9cff1198-deb7-49c4-b65d-89c97e4b1e2b)
 # Warehouse Inventory Application
 
 This application will not only handle the essential CRUD (Create, Read, Update, Delete) operations but will also incorporate advanced features to provide a comprehensive inventory management solution. By implementing functionalities for calculating holding costs, the app will help you gain a deeper understanding of the financial implications of your inventory decisions. Additionally, the app will facilitate efficient management of the flow of goods into and out of your inventory.
