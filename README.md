@@ -1,6 +1,6 @@
 ![DALL·E 2024-08-26 18 54 53 - A highly detailed 4K realistic image of a laptop on a wooden table displaying a warehouse inventory app, placed inside an old classic warehouse at nig](https://github.com/user-attachments/assets/9cff1198-deb7-49c4-b65d-89c97e4b1e2b)
 
-Presentation slides  -> [See here!](https://drive.google.com/file/d/1r2r-e_VKcl_nY7K4pJj2XwUqBOB3dO2N/view?usp=sharing)
+Presentation slides  -> [See here!](https://drive.google.com/file/d/1m33KeL9re4qX1vtwV35yQbJJmiahgwm1/view?usp=sharing)
   
 # Case Studies
 
