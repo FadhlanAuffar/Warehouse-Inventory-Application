@@ -1,5 +1,7 @@
 ![DALL·E 2024-08-26 18 54 53 - A highly detailed 4K realistic image of a laptop on a wooden table displaying a warehouse inventory app, placed inside an old classic warehouse at nig](https://github.com/user-attachments/assets/9cff1198-deb7-49c4-b65d-89c97e4b1e2b)
 
+- Presentation slides  -> [link](https://drive.google.com/file/d/1r2r-e_VKcl_nY7K4pJj2XwUqBOB3dO2N/view?usp=sharing)
+  
 # Case Studies
 
 The furniture business encountered significant challenges with its inventory management, primarily due to outdated manual processes that resulted in mismatches between actual stock levels and what was recorded. These inaccuracies led to delays in operations, higher holding costs, and dissatisfied customers. To overcome these issues, the company adopted a Warehouse Inventory Application, which was tailored to enhance warehouse operations by boosting productivity, increasing the precision of inventory data, and offering real-time visibility. This system automates key functions such as creating, viewing, updating, and deleting inventory records while also incorporating features for real-time stock monitoring and cost calculations. The implementation of this application aims to minimize errors, better manage stock levels, and enhance overall operational efficiency, ultimately improving customer satisfaction and reducing costs.
