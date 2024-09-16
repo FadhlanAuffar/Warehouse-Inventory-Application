@@ -2,13 +2,13 @@
 
 Presentation slides  -> [See here!](https://drive.google.com/file/d/1m33KeL9re4qX1vtwV35yQbJJmiahgwm1/view?usp=sharing)
   
-# Case Studies
+# Project Background
 
 The furniture business encountered significant challenges with its inventory management, primarily due to outdated manual processes that resulted in mismatches between actual stock levels and what was recorded. These inaccuracies led to delays in operations, higher holding costs, and dissatisfied customers. To overcome these issues, the company adopted a Warehouse Inventory Application, which was tailored to enhance warehouse operations by boosting productivity, increasing the precision of inventory data, and offering real-time visibility. This system automates key functions such as creating, viewing, updating, and deleting inventory records while also incorporating features for real-time stock monitoring and cost calculations. The implementation of this application aims to minimize errors, better manage stock levels, and enhance overall operational efficiency, ultimately improving customer satisfaction and reducing costs.
 
 ---
 
-# Introduction
+# Objective
 
 Designed for furniture business, this warehouse inventory app optimizes operations by boosting productivity, enhancing inventory accuracy, and offering real-time data visibility.
 
